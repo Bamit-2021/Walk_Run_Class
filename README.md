@@ -1,34 +1,34 @@
 # Walk_Run_Class
 
 ## Business Case-Study
-This project is based on Human motion analysis and activity recognition using wearable watch/sensors, which help to us to classify human activities (either walking or running) based on sensor data collection from wearable devices. We will apply different Machine learning algorithm including: Decision Tree, Random Forest, Gradient Boosting, XG-Boosting and Artificial Neural Network.
+This project is based on Human motion analysis and activity recognition using wearable watches/sensors, which help us to classify human activities (either walking or running) based on sensor data collection from wearable devices. We will apply different Machine learning algorithms including Decision Tree, Random Forest, Gradient Boosting, XG-Boosting, and Artificial Neural Networks.
 
 ## Dataset Description
 This Dataset consists Total of 10 Features and 1 Target(activity).
 
-Date : The calendar date on which an activity was recorded.
+Date: The calendar date on which an activity was recorded.
 
-Time : The specific time of day when an activity was recorded.
+Time: The specific time of day when an activity was recorded.
 
-Username : The identifier associated with the individual wearing the wristwatch.
+Username: The identifier associated with the individual wearing the wristwatch.
 
-Wrist : Indicates the wrist (left or right) on which the wristwatch is worn.
+Wrist: Indicates the wrist (left or right) on which the wristwatch is worn.
 
-Activity : The type of activity being performed (0 for walking/1 for running).
+Activity: The type of activity being performed (0 for walking/1 for running).
 
-Acceleration_x : Acceleration along the x-axis measured by the wristwatch's accelerometer.
+Acceleration_x: Acceleration along the x-axis measured by the wristwatch's accelerometer.
 
-Acceleration_y : Acceleration along the y-axis measured by the wristwatch's accelerometer.
+Acceleration_y: Acceleration along the y-axis measured by the wristwatch's accelerometer.
 
-Acceleration_z : Acceleration along the z-axis measured by the wristwatch's accelerometer.
+Acceleration_z: Acceleration along the z-axis measured by the wristwatch's accelerometer.
 
-Gyro_x : Angular velocity around the x-axis measured by the wristwatch's gyroscope.
+Gyro_x: Angular velocity around the x-axis measured by the wristwatch's gyroscope.
 
-Gyro_y : Angular velocity around the y-axis measured by the wristwatch's gyroscope.
+Gyro_y: Angular velocity around the y-axis measured by the wristwatch's gyroscope.
 
-Gyro_z : Angular velocity around the z-axis measured by the wristwatch's gyroscope.
+Gyro_z: Angular velocity around the z-axis measured by the wristwatch's gyroscope.
 
-## Features with respect to Activity
+## Features for Activity
 
 ![image](https://github.com/Bamit-2021/Walk_Run_Classification/assets/77608956/4a7a97da-b902-4911-96dd-722faf943b4b)
 
@@ -47,8 +47,10 @@ Gyro_z : Angular velocity around the z-axis measured by the wristwatch's gyrosco
 
 
 ## Challenges faced:
-We have to analyse EDA part with respect to acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y and gyro_z and have to understand its relation with respect to wrist and activity.
+We have to analyze the EDA part for acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, and gyro_z and have to understand its relation to the wrist and activity.
 
-For More Information Please review the full analysis in the final notebook.
+------
 
-For any additional questions, feel free to email me at business.trushalpatel@gmail.com
+For More Information Please review the full analysis in the [final notebook](https://github.com/Bamit-2021/Walk_Run_Classification/blob/main/WalkRunClass.ipynb).
+
+For any additional questions, feel free to email me at patroamit358@gmail.com
